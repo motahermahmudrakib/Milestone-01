@@ -1,3 +1,8 @@
+.header{
+    font-size: 200px;
+    background-image: url(download.webp);
+    background-size: cover;
+}
 h3{
     font-size: 40px;
     text-decoration: overline;
