@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moudle4_4</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>How to make table </h1>
@@ -30,9 +39,17 @@
         </table>
     </section>
         <section>
-        <h4>Simple Table </h4>
+        <h4>Simple Table: Info collect </h4>
         <table>
-            <thead></thead>
+            <caption>Information collect</caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Fist Name</th>
+                    <th>Last name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr>
                     <td>1</td>
@@ -53,7 +70,9 @@
                     <td>30</td>
                 </tr>
             </tbody>
-            <tfoot></tfoot>
+            <tfoot>
+                <td colspan="4" style="text-align: center;">Total info: 04</td>
+            </tfoot>
         </table>
     </section>
 </body>
